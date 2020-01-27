@@ -60,3 +60,8 @@ ul {
 input:checked + label span {
     transform: rotate(45deg);
 }
+
+input:checked + label span::before, input:checked + label span::after {
+    top: calc(50% - 1px);
+    transition: 0.4s;
+}
