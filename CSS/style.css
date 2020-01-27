@@ -5,3 +5,15 @@ input {
     appearance: none;
     position: fixed;
 }
+
+label {
+    position: fixed;
+    top:0;
+    right: 0;
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    width: 15px;
+    height: 10px;
+    margin: 40px;
+}
