@@ -74,6 +74,3 @@ input:checked ~ ul {
     transform: none;
     transition: transform 0.4s;
 }
-nav {
-    background: black;
-}
