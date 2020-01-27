@@ -42,3 +42,6 @@ label span::before {
     top: 0;
 }
 
+label span::after {
+    top: calc(100%-2px);
+}
