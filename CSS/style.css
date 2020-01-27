@@ -65,3 +65,7 @@ input:checked + label span::before, input:checked + label span::after {
     top: calc(50% - 1px);
     transition: 0.4s;
 }
+
+input:checked + label span::after {
+    transform: rotate(90deg);
+}
