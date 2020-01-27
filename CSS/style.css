@@ -18,7 +18,7 @@
 	width: 15px;
 	height: 10px;
 	margin: 40px;
-	color: hotpink;
+	color: #01265D;
 }
 
 .nav__trigger-finger::before {
@@ -28,7 +28,7 @@
 	left: -5px;
 	bottom: -5px;
 	right: -5px;
-	background: hotpink;
+	background:#01265D;
 	opacity: 0;
 	z-index: -1;
 	transition: opacity 0.3s cubic-bezier(0.75, 0, 0.25, 1);
@@ -109,7 +109,7 @@
 	bottom: 0;
 	right: 0;
 	z-index: -1;
-	background: hotpink;
+	background:#01265D;
 	font-size: 4rem;
 	padding: 40px;
 	transform: translate(100vw) rotate(45deg);
@@ -166,7 +166,7 @@ main h1 {
 }
 
 main h1 span {
-	color: hotpink;
+	color:#01265D;
 }
 
 main p {
