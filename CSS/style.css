@@ -173,3 +173,6 @@ main p {
 	line-height: 1.5;
 	margin-top: 1.5rem;
 }
+a:hover {
+    color:#FFD51F;
+}
