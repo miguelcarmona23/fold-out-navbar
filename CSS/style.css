@@ -25,3 +25,15 @@ label span {
     height: 2px;
     transition: transform 1s;
 }
+
+label span::before,
+label span::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    display: block;
+    height: 2px;
+    background: hotpink;
+    transition: 0.4s;
+}
